@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,6 +20,8 @@ import java.net.URL;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
+
     private Button btnTest;
 
     @Override
@@ -42,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 postNetwork();
+                postNetwork();
+                Log.i(TAG, "测试");
                 //writeToExternalStorage();
             }
         });
