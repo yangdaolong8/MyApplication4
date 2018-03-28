@@ -1,0 +1,1 @@
+include ':app', ':JNITest', ':Testdemo', ':StrictModeDemo'
