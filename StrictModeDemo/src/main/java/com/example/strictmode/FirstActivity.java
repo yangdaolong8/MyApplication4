@@ -12,5 +12,13 @@ public class FirstActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_first);
+        initView();
+    }
+
+    /**
+     * 初始化view
+     */
+    private void initView() {
+
     }
 }
